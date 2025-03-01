@@ -2,5 +2,5 @@
   "watch": [".", "config"],
   "ext": "js,json,ts",
   "ignore": ["node_modules/*", "*.test.js", "*.spec.js"],
-  "exec": "node -r dotenv/config index.js"
-} 
+  "exec": "node -r dotenv/config server.js"
+}
